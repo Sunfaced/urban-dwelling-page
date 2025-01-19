@@ -1,7 +1,7 @@
 const goods = [
   {
     title: "Встраиваемый светильник Markt",
-    imgUrl: "img/Arg.png",
+    imgUrl: "img/Markt.png",
     promoImg: "img/promo.png",
     oldPrice: "3490 ₽",
     newPrice: "5060 ₽",
