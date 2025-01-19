@@ -1,8 +1,8 @@
 const goods = [
   {
     title: "Встраиваемый светильник Markt",
-    imgUrl: "./../img/Markt.png",
-    promoImg: "./../img/promo.png",
+    imgUrl: "https://Sunfaced.github.io/online-store/img/Markt.png",
+    promoImg: "https://Sunfaced.github.io/online-store/img/promo.png",
     oldPrice: "3490 ₽",
     newPrice: "5060 ₽",
   },
