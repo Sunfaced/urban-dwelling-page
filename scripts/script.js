@@ -107,7 +107,7 @@ function replaceElement() {
   const menuBtn = document.createElement("img");
   const navInfoList = document.querySelector(".nav__info-list");
   const navactionList = document.querySelector(".nav__action-list");
-  menuBtn.src = "./../img/MenuButton.png";
+  menuBtn.src = "img/MenuButton.png";
   menuBtn.className = "menuBtn";
 
   if (!originalContent) {
