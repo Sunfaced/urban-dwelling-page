@@ -23,8 +23,9 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1940px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 br {
@@ -687,5 +688,6 @@ main {
     grid-row: 7;
   }
 }
+
 
 /*# sourceMappingURL=styles.css.map */

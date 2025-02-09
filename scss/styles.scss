@@ -4,9 +4,6 @@
   font-weight: normal;
   font-style: normal;
 } */
-
-$primary-font: "Lato", sans-serif;
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,8 +23,9 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1940px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 br {
@@ -45,7 +43,7 @@ ul {
 }
 
 .nav__services {
-  font-family: $primary-font;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -89,7 +87,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 100px;
-  font-family: $primary-font;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 16px;
@@ -105,7 +103,7 @@ ul {
 }
 
 .nav__action-button {
-  font-family: $primary-font;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -210,7 +208,7 @@ main {
 }
 
 .main__goods-title {
-  font-family: $primary-font;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 25.2px;
@@ -222,7 +220,7 @@ main {
 }
 
 .main__goods-oldPrice {
-  font-family: $primary-font;
+  font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30.8px;
@@ -337,7 +335,7 @@ main {
 
 .footer__services {
   grid-column: 3;
-  grid-row: 1 / span 2;
+  grid-row: 1/span 2;
 }
 
 .footer__services-list {
@@ -420,12 +418,10 @@ main {
     margin: 0 auto;
     margin-top: 12px;
   }
-
   main {
     width: 1240px;
     margin: 0 auto;
   }
-
   .main__goods-item {
     width: 287px;
     height: 516px;
@@ -446,46 +442,38 @@ main {
     padding: 60px 0;
   }
 }
-
 @media (max-width: 770px) {
   .nav__services {
     display: none;
   }
-
   .nav__logo-img {
     width: 141px;
     height: 36px;
     margin: 12px 0;
   }
-
   .menuBtn {
     width: 40px;
     height: 24px;
   }
-
   .nav__info {
     display: flex;
     align-items: center;
     width: 680px;
     margin: 0 auto;
   }
-
   main {
     width: 680px;
     margin: 0 auto;
   }
-
   .main__goods {
     width: 680px;
     margin: 0;
   }
-
   .main__goods-list {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
   }
-
   .main__goods-item {
     width: 320px;
     height: 565px;
@@ -507,20 +495,17 @@ main {
     grid-row: 1;
     margin-bottom: 33px;
   }
-
   .footer__logo,
   .footer__logo-img {
     width: 180px;
     height: 46px;
   }
-
   .footer__text {
-    grid-column: 2 / 4;
+    grid-column: 2/4;
     grid-row: 4;
     width: 382px;
     height: 63px;
   }
-
   .footer__location {
     grid-column: 1;
     grid-row: 2;
@@ -529,7 +514,6 @@ main {
     width: 210px;
     height: 62px;
   }
-
   .footer__contacts {
     grid-column: 2;
     grid-row: 2;
@@ -539,13 +523,11 @@ main {
     height: 95px;
     margin-right: 32px;
   }
-
   .footer__services {
     grid-column: 3;
-    grid-row: 2 / 3;
+    grid-row: 2/3;
     margin-left: 0;
   }
-
   .footer__services-item:nth-child(1) {
     font-family: Lato;
     font-size: 18px;
@@ -564,7 +546,6 @@ main {
     text-decoration-skip-ink: none;
     text-align: left;
   }
-
   .footer__offer {
     grid-column: 1;
     grid-row: 3;
@@ -574,11 +555,9 @@ main {
     width: 242px;
     height: 64px;
   }
-
   .footer__legal {
     align-items: flex-start;
   }
-
   .footer__payment {
     grid-column: 1;
     grid-row: 4;
@@ -588,12 +567,10 @@ main {
     width: 215px;
     height: 31px;
   }
-
   br {
     display: none;
   }
 }
-
 @media (max-width: 390px) {
   .container {
     width: 390px;
@@ -605,7 +582,6 @@ main {
     width: 390px;
     margin: 0 auto;
   }
-
   .nav__logo {
     margin: 10px 0;
     margin-left: 35px;
@@ -613,16 +589,13 @@ main {
   .menuBtn {
     margin-right: 35px;
   }
-
   main {
     width: 320px;
     margin: 0 auto;
   }
-
   .main__title {
     white-space: normal;
   }
-
   br {
     display: block;
   }
@@ -630,37 +603,30 @@ main {
     width: 320px;
     margin: 0;
   }
-
   .main__goods-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
   }
-
   .main__goods-item {
     width: 155px;
     height: 320px;
   }
-
   .main__goods-img {
     width: 155px;
     height: 230px;
     margin-bottom: 10px;
   }
-
   .main__goods-details {
     display: none;
   }
-
   .main__goods-promoImg {
     width: 70px;
     height: 24px;
   }
-
   .main__goods-promoImg:not(:nth-child(odd)) {
     display: none;
   }
-
   .main__goods-title {
     font-family: "Lato";
     font-size: 16px;
@@ -671,7 +637,6 @@ main {
     text-decoration-skip-ink: none;
     margin-bottom: 11px;
   }
-
   .main__goods-oldPrice {
     font-family: "Lato";
     font-size: 16px;
@@ -681,7 +646,6 @@ main {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-
   .footer__container {
     width: 390px;
     display: grid;
@@ -690,45 +654,39 @@ main {
     margin-left: 36px;
     padding: 0;
   }
-
   .footer__logo {
     grid-column: 1;
     grid-row: 1;
   }
-
   .footer__location {
     grid-column: 1;
     grid-row: 2;
     margin-bottom: 30px;
   }
-
   .footer__contacts {
     grid-column: 1;
     grid-row: 3;
     margin-bottom: 30px;
   }
-
   .footer__services {
     grid-column: 1;
     grid-row: 4;
     margin-bottom: 30px;
   }
-
   .footer__offer {
     grid-column: 1;
     grid-row: 5;
     margin-bottom: 72px;
   }
-
   .footer__payment {
     grid-column: 1;
     grid-row: 6;
     margin-bottom: 30px;
   }
-
   .footer__text {
     grid-column: 1;
     grid-row: 7;
   }
-
 }
+
+/*# sourceMappingURL=styles.css.map */
